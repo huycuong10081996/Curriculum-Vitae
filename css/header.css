@@ -1,0 +1,37 @@
+header {
+    background: url(../img/showcase.png);
+    background-position: center;
+    background-size: cover;
+    height: 654px;
+}
+
+
+
+section.main-image {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.main-image .avatar {
+    margin: 200px 0 0 0;
+}
+
+.main-image .avatar>img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.main-image .greeting {}
+
+.main-image .greeting>h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.main-image .slogan {}
+
+.main-image .slogan>h1 {
+    font-size: 32px;
+    color: #999;
+}
